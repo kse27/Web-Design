@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>계절의 변화</title>
+    <meta name="description" content="한국의 계절의 변화">
+    <style>
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+        }
+        a {
+            text-decoration: none;
+            color : #000
+        }
+        body {
+            /*background: linear-gradient(to right, #ffb6c1, #ffcc99, #ffff99, #ccffcc, #a0d8ef, #d8a0c1, #a0d8ef);*/
+            background-size: cover;
+        }
+        .ti {
+            margin-bottom : 100px;
+            position:absolute;
+            left:100px;
+            right:100px;
+            color: #000;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-family: Inter;
+            font-size: 36px;
+            font-style: bold;
+            font-weight: 400;
+        }
+        .flex-container {
+            display: flex;
+            text-align: center;
+            justify-content: space-between; /* 아이템을 양쪽 끝에 배치하고 간격을 동일하게 설정 */
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            color: #000;
+            font-family: Inter;
+            font-size: 36px;
+            font-style: bold;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .flex-item {
+            display: flex; /* 추가된 부분 */
+            align-items: center; /* 추가된 부분 */
+            justify-content: center; /* 추가된 부분 */
+            width: 400px;
+            height: 400px;
+            text-align : center;
+        }
+        #spring {
+            background-image: url("C:/Users/USER/OneDrive - 화홍중학교/바탕 화면/WEB PAGE/getImage.jpg"); /* 봄 배경 이미지 */
+        }
+        #summer {
+            background-image: url("C:/Users/USER/OneDrive - 화홍중학교/바탕 화면/WEB PAGE/990485345F3B74071A.jpeg"); /* 여름 배경 이미지 */
+        }
+        #fall {
+            background-image: url("C:/Users/USER/OneDrive - 화홍중학교/바탕 화면/WEB PAGE/1661998173534_0.jpg"); /* 가을 배경 이미지 */
+        }
+        #winter {
+            background-image: url("C:/Users/USER/OneDrive - 화홍중학교/바탕 화면/WEB PAGE/1571EA5050830E2124.jpeg"); /* 겨울 배경 이미지 */
+        }
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <h1><a href='four_season.html'>Four Season</a></h1>
+        <h3>202100805 김시은 웹디자인 과제</h3>
+    </header>
+    <div>
+        <div class="flex-container">
+            <div id="spring" class="flex-item"><a href="spring.html">봄</a></div>
+            <div id="summer" class="flex-item"><a href="summer.html">여름</a></div>
+            <div id="fall" class="flex-item"><a href="fall.html">가을</a></div>
+            <div id="winter" class="flex-item"><a href="winter.html">겨울</a></div>
+        </div>
+        <div class="ti">
+            <h1>Change of Season</h1>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
